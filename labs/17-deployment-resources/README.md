@@ -25,7 +25,7 @@ kubectl -n ckad-resources patch deployment web --patch-file solution.yaml
 kubectl -n ckad-resources rollout status deployment/web
 ```
 
-An exam-friendly alternative is:
+A faster alternative is:
 
 ```bash
 kubectl -n ckad-resources set resources deployment web \

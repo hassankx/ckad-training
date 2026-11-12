@@ -1,4 +1,4 @@
-# CKAD 2026 Exam Preparation Labs
+# CKAD 2026 Training Labs
 
 Seventeen hands-on labs covering common CKAD tasks. Each lab is self-contained and designed for command-line practice under time pressure.
 🎥 Complete video playlist with explanations: https://youtube.com/playlist?list=PLGPD0L7wWIvc&si=HuubJkB_8oq6_Sx2 
@@ -42,7 +42,7 @@ Use a fresh namespace for every lab. The setup manifests create the required nam
 | 16 | Expose a Deployment with NodePort | [`labs/16-nodeport-service`](labs/16-nodeport-service) |
 | 17 | Deployment CPU requests and limits | [`labs/17-deployment-resources`](labs/17-deployment-resources) |
 
-## Exam habits
+## Training habits
 
 - Set the namespace early: `kubectl config set-context --current --namespace=<namespace>`.
 - Prefer imperative commands when they are faster, then use `--dry-run=client -o yaml` when a manifest is needed.
