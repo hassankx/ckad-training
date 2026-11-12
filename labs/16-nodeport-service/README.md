@@ -1,5 +1,7 @@
 # Lab 16 - Expose a Deployment with NodePort
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Expose Deployment `web` in namespace `ckad-nodeport` as Service `web-nodeport`. The Service must listen on port `80`, target container port `80`, and select the Deployment's Pods.

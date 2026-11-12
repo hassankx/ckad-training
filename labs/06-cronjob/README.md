@@ -1,5 +1,7 @@
 # Lab 06 - Create a CronJob
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 In namespace `ckad-cron`, create CronJob `half-hour-report` that runs every 30 minutes. It must use container name `sp`, image `busybox:1.28`, and restart policy `Never`. Run `/bin/sh -c 'date; echo Hello from the Kubernetes cluster'`.

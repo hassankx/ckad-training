@@ -1,5 +1,7 @@
 # Lab 01 - Move hard-coded database values to a Secret
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 The `postgres-client` Deployment in namespace `ckad-secret` contains the PostgreSQL database name and password as literal environment variable values. Create Secret `postgres-credentials` with keys `database` and `password`, update the Deployment to consume those keys, and redeploy it.

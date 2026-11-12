@@ -1,5 +1,7 @@
 # Lab 10 - Configure security context and capabilities
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Update Deployment `toolbox` in namespace `ckad-security`. Configure container `toolbox` to run as user ID `1000` and add Linux capabilities `NET_ADMIN` and `SYS_TIME`.

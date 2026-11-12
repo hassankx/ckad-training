@@ -1,5 +1,7 @@
 # Lab 17 - Add CPU requests and limits
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 In namespace `ckad-resources`, update Deployment `web` so container `nginx` requests `100m` CPU and is limited to `300m` CPU. Redeploy the application.

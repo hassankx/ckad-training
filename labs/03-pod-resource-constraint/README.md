@@ -1,5 +1,7 @@
 # Lab 03 - Create a Pod with CPU constraints
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 A Pod manifest is provided in `pod.yaml`. Inspect the namespace `ckad-pod-cpu` and set the Pod's container CPU limit to half of the maximum allowed CPU value. Keep the existing CPU request unchanged. Create Pod `worker` in namespace `ckad-pod-cpu` using the updated file.

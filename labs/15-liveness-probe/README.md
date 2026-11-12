@@ -1,5 +1,7 @@
 # Lab 15 - Configure a liveness probe
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Deployment `web` in namespace `ckad-probe` is running without a liveness probe. Configure an HTTP GET liveness probe for container `web` on path `/healthz`, port `8080`, with initial delay `10` seconds and period `10` seconds.

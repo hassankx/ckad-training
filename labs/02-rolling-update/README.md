@@ -1,5 +1,7 @@
 # Lab 02 - Configure, perform, and roll back an update
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 For Deployment `frontend` in namespace `ckad-rollout`, configure rolling updates with `maxUnavailable: 1` and `maxSurge: 2`. Update image `nginx` from `nginx:1.24-alpine` to `nginx:1.25-alpine`, verify the rollout, and then roll back to the previous revision.

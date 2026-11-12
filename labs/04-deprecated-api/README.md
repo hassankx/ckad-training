@@ -1,5 +1,7 @@
 # Lab 04 - Replace a deprecated Deployment API
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Manifest `deprecated-deployment.yaml` uses an API version no longer served by current Kubernetes releases. Update it to a supported API version and deploy it in namespace `ckad-api`.

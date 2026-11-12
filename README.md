@@ -1,12 +1,14 @@
 # CKAD 2026 Training Labs
 
+> 🇫🇷 [Version française](README.fr.md)
+
 Seventeen hands-on labs covering common CKAD tasks. Each lab is self-contained and designed for command-line practice under time pressure.
 🎥 Complete video playlist with explanations: https://youtube.com/playlist?list=PLGPD0L7wWIvc&si=HuubJkB_8oq6_Sx2 
 ## Prerequisites
 
 - Kubernetes cluster (kind, minikube, Docker Desktop, or a remote practice cluster)
 - `kubectl` configured for the cluster
-- Docker for Lab 14
+- Docker for Lab 12
 - An Ingress controller for Labs 07 and 08
 
 ## Recommended workflow
@@ -32,7 +34,7 @@ Use a fresh namespace for every lab. The setup manifests create the required nam
 | 06 | CronJob every 30 minutes | [`labs/06-cronjob`](labs/06-cronjob) |
 | 07 | Create an Ingress | [`labs/07-create-ingress`](labs/07-create-ingress) |
 | 08 | Troubleshoot an inaccessible Ingress | [`labs/08-fix-ingress`](labs/08-fix-ingress) |
-| 09 | Create a 20% canary deployment | [`labs/09-canary-deployment`](labs/10-canary-deployment) |
+| 09 | Create a 20% canary deployment | [`labs/09-canary-deployment`](labs/09-canary-deployment) |
 | 10 | Security context and capabilities | [`labs/10-security-context`](labs/10-security-context) |
 | 11 | NetworkPolicy | [`labs/11-network-policy`](labs/11-network-policy) |
 | 12 | Build and export a Docker image | [`labs/12-docker-image-export`](labs/12-docker-image-export) |

@@ -1,5 +1,7 @@
 # Lab 09 - Create a canary deployment
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Namespace `ckad-canary` may contain no more than ten application Pods. Deployment `storefront` runs five Pods with image `nginx:1.24-alpine`. Scale it to eight Pods and create a canary Deployment named `storefront-canary` with two Pods using image `nginx:1.25-alpine`. Both versions must receive traffic through the existing Service `storefront`, targeting approximately 80% stable traffic and 20% canary traffic.

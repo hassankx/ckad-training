@@ -1,5 +1,7 @@
 # Lab 13 - Diagnose and correct a ServiceAccount/RBAC issue
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Deployment `inspector` in namespace `ckad-rbac` is running, but its logs contain errors. Inspect the logs to identify the issue, then review the available ServiceAccounts and their existing RBAC permissions to determine which ServiceAccount can resolve it. Update only the Deployment to use that ServiceAccount and verify that the errors are resolved. Do not modify ServiceAccounts, Roles, or RoleBindings.

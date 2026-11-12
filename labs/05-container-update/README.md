@@ -1,5 +1,7 @@
 # Lab 05 - Update a container name and image
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Update Deployment `api` in namespace `ckad-container`. Rename container `old-container` to `web-container` and set its image to `nginx:1.25-alpine`. Ensure the resulting Pod reaches `Running`.

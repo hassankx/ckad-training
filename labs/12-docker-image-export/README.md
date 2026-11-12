@@ -1,5 +1,7 @@
 # Lab 12 - Build and export a Docker image
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Build the Docker image defined in this directory. Tag it `ckad-web:v1` and export it to `ckad-web-v1.tar`.

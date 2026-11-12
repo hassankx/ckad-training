@@ -1,5 +1,7 @@
 # Lab 08 - Troubleshoot an inaccessible Ingress
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Ingress, Service, and Deployment `catalog` exist in namespace `ckad-ingress-fix`, but `http://catalog.ckad.local/` is inaccessible. Identify and fix the configuration issue.

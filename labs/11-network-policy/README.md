@@ -1,5 +1,7 @@
 # Lab 11 - Network Policy
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Namespace `ckad-network` contains an `app` Deployment, a `database` Deployment, and a `client` Pod. Services `app` and `database` expose the corresponding Deployments on TCP port 80. NetworkPolicies are already configured, but Pod `client` cannot connect to either Service.

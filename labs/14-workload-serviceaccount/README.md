@@ -1,5 +1,7 @@
 # Lab 14 - Assign a ServiceAccount to a workload
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Deployment `application` in namespace `ckad-workload-sa` currently uses the namespace's `default` ServiceAccount. Update it to use existing ServiceAccount `application-sa`.

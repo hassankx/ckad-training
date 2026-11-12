@@ -1,5 +1,7 @@
 # Lab 07 - Create an Ingress
 
+> 🇫🇷 [Version française](README.fr.md)
+
 ## Question
 
 Deployment and Service `web` already exist in namespace `ckad-ingress` on a kind cluster. Create Ingress `web` using class `nginx`. Route host `ckad.local` and path prefix `/` to Service `web` on port `80`. Use curl to request `http://ckad.local/` through the Ingress controller and show the HTTP status and response body.
